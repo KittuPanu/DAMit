@@ -1,15 +1,15 @@
 # goddamN
 # Reservoir Forecasting Program
 
-![Reservoir](reservoir_image.jpg)
+![Reservoir]
 
 ## Overview
-This is a simple Python program that helps with reservoir forecasting by predicting the water surplus or deficit based on user input and historical rainfall data. The program uses an Excel spreadsheet containing historical rainfall data to estimate the future reservoir volume.
+This is a simple Python program that helps with reservoir forecasting by predicting the water surplus or deficit based on user input and real-time rainfall data from [**timeanddate**]([url](https://www.timeanddate.com/weather/india/hyderabad/ext)). The program uses an Excel spreadsheet containing rainfall data to estimate the future reservoir volume.
 
 ## Features
 - Input the current volume of the reservoir (in liters).
 - Select a day from today until the next 13 days to get a weather forecast.
-- Calculate the predicted volume of rainfall for the selected day from the historical data.
+- Calculate the predicted volume of rainfall for the selected day from the real time data.
 - Estimate the surplus (or deficit) of water in the reservoir after the selected day.
 - Suggest whether to open the reservoir gates based on the calculated surplus.
 
@@ -23,7 +23,7 @@ This is a simple Python program that helps with reservoir forecasting by predict
 7. The program will display the calculation and suggest whether to open the reservoir gates based on the forecast.
 
 ## Data Source
-The program uses an Excel spreadsheet 'Rainfall in hyderabad_inmm_real.xlsx', which contains historical rainfall data. The data must be organized with one column labeled 'Date' and another column labeled 'PV in litres' representing the predicted volume of rainfall for each day.
+The program uses an Excel spreadsheet 'Rainfall in hyderabad_inmm_real.xlsx', which contains real time rainfall data. The data must be organized with one column labeled 'Date' and another column labeled 'PV in litres' representing the predicted volume of rainfall for each day.
 
 ## Example Data Format
 | Date       | PV in litres |
