@@ -1,7 +1,7 @@
 # Reservoir Water-level Forecasting Program
 
 ## Overview
-This is a simple Python program that helps with reservoir forecasting by predicting the water surplus or deficit based on user input and real-time rainfall data from [**timeanddate**]([url](https://www.timeanddate.com/weather/india/hyderabad/ext)). The program uses an Excel spreadsheet containing rainfall data to estimate the future reservoir volume.
+This is a simple Python program that helps with reservoir forecasting by predicting the water surplus or deficit based on user input and real-time rainfall data from [**timeanddate**](https://www.timeanddate.com/weather/india/hyderabad/ext). The program uses an Excel spreadsheet containing rainfall data to estimate the future reservoir volume.
 
 ## Features
 - Input the current volume of the reservoir (in liters).
