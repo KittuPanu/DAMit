@@ -11,8 +11,8 @@ This is a simple Python program that helps with reservoir forecasting by predict
 - Suggest whether to open the reservoir gates based on the calculated surplus.
 
 ## Installation and Usage
-1. Ensure you have Python installed on your system (Python 3.x recommended). Get it [here](https://python.org)
-3. Clone this repository to your local machine or download the repository as a ZIP file and extract it.
+1. Ensure you have Python installed on your system (Python 3.x recommended). Get it [here](https://python.org).
+3. Clone this repository to your local machine or download the repository as a ZIP file and extract it. Alternatively, go to the [Releases](https://github.com/KittuPanu/DAMit/releases) page and download the ZIP file from latest release.
 4. Make sure the Excel file 'Rainfall in hyderabad_inmm_real.xlsx' is in the same directory as the 'reservoir_program.py' script.
 5. Open a terminal or command prompt and navigate to the directory containing the program files.
 6. Run the program by executing the following command: python reservoir_program.py
